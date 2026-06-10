@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal research website for Xiaobei Chen, health communication and human-machine communication scholar.">
+    <title>Xiaobei Chen | Health Communication Research</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Xiaobei Chen home">
+        <span class="brand-mark">XC</span>
+        <span>Xiaobei Chen</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow" id="profile-kicker"></p>
+          <h1 id="hero-title"></h1>
+          <p class="hero-summary" id="hero-summary"></p>
+          <div class="hero-actions" id="hero-actions"></div>
+        </div>
+        <figure class="hero-portrait">
+          <img src="assets/xiaobei-chen.jpg" alt="Portrait of Xiaobei Chen">
+        </figure>
+      </section>
+
+      <section class="section intro-grid" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="section-label">About</p>
+          <h3 id="about-title">Health Communication/Human-machine Communication Scholar and Educator</h3>
+        </div>
+        <div class="about-copy" id="about-copy"></div>
+      </section>
+
+      <section class="section expertise-band" aria-labelledby="expertise-title">
+        <div class="section-heading">
+          <p class="section-label">Focus</p>
+          <h2 id="expertise-title">What I Study</h2>
+        </div>
+        <div class="expertise-grid" id="expertise-grid"></div>
+      </section>
+
+      <section class="section publications-section" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading split">
+          <div>
+            <p class="section-label">Publications</p>
+            <h2 id="publications-title">Selected publications grouped by research interest.</h2>
+          </div>
+        </div>
+        <div class="publication-groups" id="publication-groups"></div>
+      </section>
+
+      <section class="section teaching-section" id="teaching" aria-labelledby="teaching-title">
+        <div class="section-heading">
+          <p class="section-label">Teaching</p>
+          <h2 id="teaching-title">Teaching Philosophy and Student Feedback</h2>
+        </div>
+        <div class="teaching-layout">
+          <article class="philosophy" id="teaching-philosophy"></article>
+          <aside class="feedback-panel">
+            <div class="rating-card" id="rating-card"></div>
+            <div class="feedback-list" id="feedback-list"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="section-label">Contact</p>
+          <h2 id="contact-title">For research collaboration, student mentorship, and media inquiries.</h2>
+        </div>
+        <div class="contact-card" id="contact-card"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p id="footer-note"></p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="data/site.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
